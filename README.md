@@ -1,4 +1,4 @@
-# Short Previous Work Examples
+# Previous Work Samples
 
 This folder contains samples of some work I did for previous companies. 
 ## 1. AUC 
