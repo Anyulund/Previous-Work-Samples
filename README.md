@@ -71,9 +71,31 @@ The Cross-Validation was performed on the Random Forest model. The training samp
 ### Results
 Mean Absolute Error (MAE) was used to check the accuracy of the model. MAE was accounted to be 0.78, which is higher than expected 0.5. Hence more experimentation on how to treat the data should be done.
 
-
 ## 3. RF logreg Marketing
-  This is a Python code with a model that predicts sing up for banking products given unbalanced data in 2017
+  This is a Python code was an experimentation model on data related with direct marketing campaigns (phone calls) of a banking institution in 2017. The classification goal was to predict if the client will subscribe a term deposit.The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
+### Data used: 
+* Age (numeric)
+* Job : type of job (categorical: 'admin.', 'blue-collar', 'entrepreneur', 'housemaid', 'management', 'retired', 'self-employed', 'services', 'student', 'technician', 'unemployed', 'unknown')
+* Marital : marital status (categorical: 'divorced', 'married', 'single', 'unknown' ; note: 'divorced' means divorced or widowed)
+* Education (categorical: 'basic.4y', 'basic.6y', 'basic.9y', 'high.school', 'illiterate', 'professional.course', 'university.degree', 'unknown')
+* Default: has credit in default? (categorical: 'no', 'yes', 'unknown')
+* Housing: has housing loan? (categorical: 'no', 'yes', 'unknown')
+* Loan: has personal loan? (categorical: 'no', 'yes', 'unknown')
+* Contact: contact communication type (categorical: 'cellular','telephone')
+* Month: last contact month of year (categorical: 'jan', 'feb', 'mar', ..., 'nov', 'dec')
+* Day_of_week: last contact day of the week (categorical: 'mon','tue','wed','thu','fri')
+* Duration: last contact duration, in seconds (numeric). Important note: this attribute highly affects the output target (e.g., if duration=0 then y='no'). Yet, the duration is not known before a call is performed. Also, after the end of the call y is obviously known. Thus, this input should only be included for benchmark purposes and should be discarded if the intention is to have a realistic predictive model.
+* Campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
+* Pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric; 999 means client was not previously contacted)
+* Previous: number of contacts performed before this campaign and for this client (numeric)
+* Poutcome: outcome of the previous marketing campaign (categorical: 'failure','nonexistent','success')
+* Emp.var.rate: employment variation rate - quarterly indicator (numeric)
+* Cons.price.idx: consumer price index - monthly indicator (numeric)
+* Cons.conf.idx: consumer confidence index - monthly indicator (numeric)
+* Euribor3m: euribor 3 month rate - daily indicator (numeric)
+* Nr.employed: number of employees - quarterly indicator (numeric)
+  
+  
 ## 4. Reservoir Engineering Proposal
   This is a technical document I wrote where I proposed how to integrate Data Science Operations for Reservor Egineering back in 2015 for Devon Energy
 ## 5. Projects Overview 
