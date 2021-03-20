@@ -11,3 +11,5 @@ This folder contains samples of some work I did for previous companies.
   This is a technical document I wrote where I proposed how to integrate Data Science Operations for Reservor Egineering back in 2015 for Devon Energy
 ## 5. Projects Overview 
   This is a short pdf presentations of my previous work in oil and gas domain 
+## 6. Spotfire Screenshot Examples
+  This is a word file with screenshots of one of the dashboards that I built for Parsley Energy in 2016
