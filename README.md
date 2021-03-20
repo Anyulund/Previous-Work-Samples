@@ -48,14 +48,14 @@ The Charlson comorbidity index predicts the one-year mortality for a patient who
 ### Methodology
 #### Step 1: Hypothesis: 
 Due to the time constraint the hypotheses were not formed or tested. Instead the research data on medication adherence was used. The columns were selected based on the research made by medical professionals. The columns were selected based on the criteria below: 
-    1. Health literacy
-    2. Literacy
-    3. Treatment cost 
-    4. Age
-    5. Ethnicity
-    6. Prescription fill rates (Medication Possession Ratio)
-    7. Course completion
-    8. Health and disease management
+* Health literacy
+* Literacy
+* Treatment cost 
+* Age
+* Ethnicity
+* Prescription fill rates (Medication Possession Ratio)
+* Course completion
+* Health and disease management
 In comorbidity data, only records with heart diseases and psychiatric diseases were kept. Research indicated that these diseases have the highest effect on the medication adherence. In addition, all diabetes data along with its complications were added as well. 
 Many columns were not present in the Data Dictionary. Hence Spearman and Pearson coefficients were used to exclude all unnecessary columns. One column in each pair that had a coefficient higher than 0.65, was excluded. 
 #### Step 2: Cleaning and Transforming the Data
