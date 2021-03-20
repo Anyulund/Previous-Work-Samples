@@ -9,4 +9,5 @@ This folder contains samples of some work I did for previous companies.
   This is a Python code with a model that predicts sing up for banking products given unbalanced data in 2017
 ## 4. Reservoir Engineering Proposal
   This is a technical document I wrote where I proposed how to integrate Data Science Operations for Reservor Egineering back in 2015 for Devon Energy
-## 5. 
+## 5. Projects Overview 
+  This is a short pdf presentations of my previous work in oil and gas domain 
