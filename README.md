@@ -2,7 +2,7 @@
 
 Welcome! 
 
-This folder contains samples of some work I did for previous companies to demonstrate the following skills: Python coding, data cleaning and preprocessing, SQL coding, data modeling,  buidling dashboards, writing technical documents and doing research. All these projects are simple. Please let me know if you have any questions, suggestions or inquiries for more complex projects. 
+This folder contains samples of some work I did for previous companies to demonstrate the following skills: Python coding, data cleaning and preprocessing, SQL coding, data modeling,  buidling dashboards, writing technical documents and doing research. All these projects are simple.Some of them were done at the beginning of my career and need better commenting,refactoring and clean up. This is work in progress. Please let me know if you have any questions, suggestions or inquiries for more complex projects. 
 
 ## 1. AUC 
   This is a Python code that calculates ROC AUC for a working FICO models to make sure that it is working properly for different time segments: yearly, monthly and quarterly. This work was done for USAA in 2017. Since only outcomes in the database were given, and not the model itself, all evalutation metrics had to be calculated manually instead of using sklearn Python package. Pandas and SQL were used to manipulate the data. 
