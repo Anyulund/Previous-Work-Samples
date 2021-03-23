@@ -3,6 +3,7 @@
 Welcome! 
 
 This folder contains samples of some work I did for previous companies to demonstrate the following skills: Python coding, data cleaning and preprocessing, SQL coding, data modeling,  buidling dashboards, writing technical documents and doing research. All these projects are simple.Some of them were done at the beginning of my career and need better commenting,refactoring and clean up. This is work in progress. Please let me know if you have any questions, suggestions or inquiries for more complex projects. 
+
 If you want to see my NLP work, please go to my NLP folder. 
 
 ## 1. AUC 
